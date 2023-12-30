@@ -1,0 +1,33 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     a.out
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002970, symSize: 0x23C }
+  - { offsetInCU: 0x3B, offset: 0x3B, size: 0x8, addend: 0x0, symName: _.str, symObjAddr: 0x2E0, symBinAddr: 0x1000075E0, symSize: 0x0 }
+  - { offsetInCU: 0x66, offset: 0x66, size: 0x8, addend: 0x0, symName: _.str.1, symObjAddr: 0x320, symBinAddr: 0x100007620, symSize: 0x0 }
+  - { offsetInCU: 0x83, offset: 0x83, size: 0x8, addend: 0x0, symName: _.str.2, symObjAddr: 0x340, symBinAddr: 0x100007640, symSize: 0x0 }
+  - { offsetInCU: 0x8C, offset: 0x8C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002970, symSize: 0x23C }
+  - { offsetInCU: 0x26, offset: 0x115, size: 0x8, addend: 0x0, symName: _cmpto, symObjAddr: 0x0, symBinAddr: 0x100002C44, symSize: 0x388 }
+  - { offsetInCU: 0x33, offset: 0x122, size: 0x8, addend: 0x0, symName: _cmpto, symObjAddr: 0x0, symBinAddr: 0x100002C44, symSize: 0x388 }
+  - { offsetInCU: 0x77, offset: 0x166, size: 0x8, addend: 0x0, symName: _last_index, symObjAddr: 0x388, symBinAddr: 0x100002FCC, symSize: 0xF4 }
+  - { offsetInCU: 0xD7, offset: 0x1C6, size: 0x8, addend: 0x0, symName: _wildcmp, symObjAddr: 0x47C, symBinAddr: 0x1000030C0, symSize: 0x560 }
+  - { offsetInCU: 0x26, offset: 0x251, size: 0x8, addend: 0x0, symName: _jointo, symObjAddr: 0x0, symBinAddr: 0x100003638, symSize: 0x4F4 }
+  - { offsetInCU: 0x33, offset: 0x25E, size: 0x8, addend: 0x0, symName: _jointo, symObjAddr: 0x0, symBinAddr: 0x100003638, symSize: 0x4F4 }
+  - { offsetInCU: 0xAA, offset: 0x2D5, size: 0x8, addend: 0x0, symName: _str_to_strs, symObjAddr: 0x4F4, symBinAddr: 0x100003B2C, symSize: 0x88 }
+  - { offsetInCU: 0xE0, offset: 0x30B, size: 0x8, addend: 0x0, symName: _strs_join, symObjAddr: 0x57C, symBinAddr: 0x100003BB4, symSize: 0x608 }
+  - { offsetInCU: 0x154, offset: 0x37F, size: 0x8, addend: 0x0, symName: _str_join, symObjAddr: 0xB84, symBinAddr: 0x1000041BC, symSize: 0x728 }
+  - { offsetInCU: 0x26, offset: 0x44E, size: 0x8, addend: 0x0, symName: _isdir, symObjAddr: 0x0, symBinAddr: 0x1000048FC, symSize: 0xDC }
+  - { offsetInCU: 0x57, offset: 0x47F, size: 0x8, addend: 0x0, symName: _isdir, symObjAddr: 0x0, symBinAddr: 0x1000048FC, symSize: 0xDC }
+  - { offsetInCU: 0x8D, offset: 0x4B5, size: 0x8, addend: 0x0, symName: _ft_split, symObjAddr: 0xDC, symBinAddr: 0x1000049D8, symSize: 0x1368 }
+  - { offsetInCU: 0xF5, offset: 0x51D, size: 0x8, addend: 0x0, symName: _free_split, symObjAddr: 0x1444, symBinAddr: 0x100005D40, symSize: 0x70 }
+  - { offsetInCU: 0x11D, offset: 0x545, size: 0x8, addend: 0x0, symName: _strsort, symObjAddr: 0x14B4, symBinAddr: 0x100005DB0, symSize: 0x314 }
+  - { offsetInCU: 0x26, offset: 0x6C3, size: 0x8, addend: 0x0, symName: _wildcard_at_loop, symObjAddr: 0x0, symBinAddr: 0x10000615C, symSize: 0x52C }
+  - { offsetInCU: 0x3B, offset: 0x6D8, size: 0x8, addend: 0x0, symName: _.str, symObjAddr: 0x12E0, symBinAddr: 0x100007760, symSize: 0x0 }
+  - { offsetInCU: 0x66, offset: 0x703, size: 0x8, addend: 0x0, symName: _.str.1, symObjAddr: 0x1320, symBinAddr: 0x100007660, symSize: 0x0 }
+  - { offsetInCU: 0x83, offset: 0x720, size: 0x8, addend: 0x0, symName: _.str.2, symObjAddr: 0x1340, symBinAddr: 0x100007680, symSize: 0x0 }
+  - { offsetInCU: 0x9F, offset: 0x73C, size: 0x8, addend: 0x0, symName: _wildcard_at_loop, symObjAddr: 0x0, symBinAddr: 0x10000615C, symSize: 0x52C }
+  - { offsetInCU: 0x121, offset: 0x7BE, size: 0x8, addend: 0x0, symName: _wildcard_at, symObjAddr: 0x52C, symBinAddr: 0x100006688, symSize: 0x364 }
+  - { offsetInCU: 0x195, offset: 0x832, size: 0x8, addend: 0x0, symName: _wildcard_collapse, symObjAddr: 0x890, symBinAddr: 0x1000069EC, symSize: 0x1DC }
+  - { offsetInCU: 0x211, offset: 0x8AE, size: 0x8, addend: 0x0, symName: _wildcard_multi_dir, symObjAddr: 0xA6C, symBinAddr: 0x100006BC8, symSize: 0x790 }
+  - { offsetInCU: 0x285, offset: 0x922, size: 0x8, addend: 0x0, symName: _wildcard, symObjAddr: 0x11FC, symBinAddr: 0x100007358, symSize: 0x38 }
+...
